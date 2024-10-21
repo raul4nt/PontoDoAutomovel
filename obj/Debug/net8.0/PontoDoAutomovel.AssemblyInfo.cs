@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PontoDoAutomovel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d0ab741d2dc9c766d9021985c8858f8958d584f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5869cbfa09373110c27802fbf3ff5e8ea8097aed")]
 [assembly: System.Reflection.AssemblyProductAttribute("PontoDoAutomovel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PontoDoAutomovel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
