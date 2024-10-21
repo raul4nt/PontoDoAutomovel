@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using PontoDoAutomovel.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<PontoDoAutomovelContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("PontoDoAutomovelContext") ?? throw new InvalidOperationException("Connection string 'PontoDoAutomovelContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
